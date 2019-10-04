@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <title>Acordeon</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="col-md-6">
+            <br>
+            
+            <a href="#seccion"class="btn btn-primary" data-toggle="collapse">Mostrar/Ocultar</a>
+            
+            <div class="collapse" id="seccion">
+                <br>
+                <div class="well">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero laboriosam est ad quisquam tenetur, architecto maiores magnam adipisci, voluptates quae cumque tempora labore incidunt placeat reprehenderit quibusdam, similique quo consequuntur!</p>
+                </div>
+            </div>
+        
+    
+        <!--Acordeon-->
+    
+            <br><br>
+            <div class="panel-group" id="acordeon" role="tablist">
+                <div class="panel panel-info">
+                    <div class="panel-heading" role="tab" id="heading1">
+                        <h4 class="panel-title">
+                            <a href="#collapse1" data-toggle="collapse" data-parent="#acordeon">
+                                Encabezado 1
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum perferendis ducimus provident inventore sit deserunt tempore! Facere earum quas est corrupti veniam iste dolores aspernatur adipisci voluptas, maiores odit!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-danger">
+                        <div class="panel-heading" role="tab" id="heading2">
+                            <h4 class="panel-title">
+                                <a href="#collapse2" data-toggle="collapse" data-parent="#acordeon">
+                                    Encabezado 2
+                                </a>
+                            </h4>
+                        </div>
+    
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum perferendis ducimus provident inventore sit deserunt tempore! Facere earum quas est corrupti veniam iste dolores aspernatur adipisci voluptas, maiores odit!</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="panel panel-success">
+                        <div class="panel-heading" role="tab" id="heading3">
+                            <h4 class="panel-title">
+                                <a href="#collapse3" data-toggle="collapse" data-parent="#acordeon">
+                                    Encabezado 3
+                                </a>
+                            </h4>
+                        </div>
+    
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum perferendis ducimus provident inventore sit deserunt tempore! Facere earum quas est corrupti veniam iste dolores aspernatur adipisci voluptas, maiores odit!</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
